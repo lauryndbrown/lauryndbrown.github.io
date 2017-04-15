@@ -47,15 +47,33 @@ h1,h2,h3,h4,h5,h6{
     border-bottom-right-radius:30px;
     border-top-left-radius:30px;
 }
-#intro{
+#intro, #contact{
     background-color:#424242;
     color:#FAFAFA;
 }
 h1{
     color:#FAFAFA;
 }
-#intro .btn{
+#intro .btn, #contact .btn{
     background-color:transparent;
     color:#FAFAFA;
     font-size:1.7em;
+}
+
+.carousel-inner{
+    min-height:350px !important;
+}
+.carousel-control{
+    background-color:#FAFAFA !important;
+    text-shadow:none;
+    color:black;
+}
+
+.carousel-control a{
+    color:black;
+
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
 }
