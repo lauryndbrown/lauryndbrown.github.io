@@ -11,11 +11,14 @@
 
     <title>Lauryn Brown</title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik+Mono+One" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/shapes.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,10 +54,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Projects</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -70,32 +70,46 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                <div class="col-lg-4">
+                    <div class="rose-container">
+                        <div class="rose">
+                            <div class="bulb-bottom top-of-stem"></div>
+                            <div class="leaf left-leaf"></div>
+                            <div class="stem"></div>
+                            <div class="leaf right-leaf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 text-left">
+                    <h1>Hi! I'm Lauryn Brown!</h1>
+                    <p class="lead">Recent Carnegie Mellon Graduate honing her craft at the Recurse Center in New York!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a class="btn btn-default page-scroll" href="#projects"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- projects Section -->
+    <section id="projects" class="projects-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
+                    <h2>Current Projects</h2>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Projects Section</h1>
+                <div class="col-md-4">
+                    <h3 class="panel-title">ASCII Art Terminal Games</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="panel-title">ASCII Art Terminal Games</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="panel-title">ASCII Art Terminal Games</h3>
                 </div>
             </div>
         </div>
@@ -106,7 +120,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    <h2>Learn More!</h2>
                 </div>
             </div>
         </div>
@@ -121,7 +135,8 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
+    <!-- Awesome Font -->
+    <script src="https://use.fontawesome.com/f84289e89a.js"></script> 
 </body>
 
 </html>
