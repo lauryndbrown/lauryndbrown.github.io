@@ -21,13 +21,13 @@ h1,h2,h3,h4,h5,h6{
     border-bottom-right-radius:60px;
 }
 .top-of-stem{
-    margin: 0px 15px;
+    margin: 0px 25px;
 }
 .stem{
     float:left;
     width:12px;
     height:200px;
-    margin: 0 1px;
+    margin: 0 10px;
     background-color:#4CAF50;
 }
 .leaf{
@@ -47,10 +47,12 @@ h1,h2,h3,h4,h5,h6{
     border-bottom-right-radius:30px;
     border-top-left-radius:30px;
 }
-#intro, #contact{
-    background-color:#424242;
-    color:#FAFAFA;
-}
+@media(min-width:400px) {
+    .right-leaf{
+        margin-right:15px;
+        margin-bottom:200px;
+    }
+}  
 h1{
     color:#FAFAFA;
 }

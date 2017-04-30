@@ -14,6 +14,12 @@ html {
     height: 100%;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        height: auto;
+    }
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -27,34 +33,21 @@ html {
     }
 }
 
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.intro-section {
+
+section{
     height: 100%;
-    padding-top: 150px;
+    padding: 150px 0;
     text-align: center;
+}
+section:nth-child(2n+1){
     background: #fff;
 }
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-.projects-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+section:nth-child(2n){
+    background-color:#424242;
+    color:#FAFAFA;
 }
