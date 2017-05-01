@@ -26,12 +26,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-# theme: lauryn-theme
+theme: lauryn-theme
 safe: false
 future: true
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
 destination: _site
