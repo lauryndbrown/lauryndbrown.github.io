@@ -17,9 +17,9 @@ title: Lauryn Brown
 email: lauryndbrown@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Personal Blog and Portfolio for Lauryn Brown. Software Engineer.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lauryndbrown.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lauryndbrown.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: 
 github_username:  lauryndbrown
 
 # Build settings
