@@ -1,27 +1,48 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/)
+# lauryn-theme
 
-[Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/) is an unstyled one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-## Getting Started
+TODO: Delete this and the text above, and describe your gem
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/scrolling-nav/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git`
-* Fork the repo
+## Installation
 
-## Bugs and Issues
+Add this line to your Jekyll site's `Gemfile`:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/scrolling-nav/).
+```ruby
+gem "lauryn-theme"
+```
 
-## Creator
+And add this line to your Jekyll site's `_config.yml`:
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+```yaml
+theme: lauryn-theme
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+And then execute:
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+    $ bundle
 
-## Copyright and License
+Or install it yourself as:
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/gh-pages/LICENSE) license.
+    $ gem install lauryn-theme
+
+## Usage
+
+TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
