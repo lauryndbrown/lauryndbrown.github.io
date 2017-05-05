@@ -85,3 +85,38 @@ h1{
 nav a:hover{
     color:green !important;
 }
+
+.slide{
+    background-color:green;
+    min-height: 100px;
+    padding:10px;
+    color:white;
+}
+
+.fa.fa-angle-left,.fa.fa-angle-right{
+  font-size: 40px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -32px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border: solid 3px;
+  border-radius: 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 22px;
+}
+/* Position the "prev button" to the left */
+.prev {
+  left: 22px;
+}

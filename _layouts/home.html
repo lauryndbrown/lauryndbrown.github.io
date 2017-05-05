@@ -105,26 +105,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <h3>{{ page.project1.title}}</h3>
-                    <p class="lead">
-                        {{ page.project1.description }}
-                    </p>
-                    <a class="btn btn-default" href="{{ page.project1.link }}"><span><h5>Learn More</h5></span></a>
-                </div>
-                <div class="col-md-4">
-                    <h3>{{ page.project2.title}}</h3>
-                    <p class="lead">
-                        {{ page.project2.description }}
-                    </p>
-                    <a class="btn btn-default" href="{{ page.project2.link }}"><span><h5>Learn More</h5></span></a>
-                </div>
-                <div class="col-md-4">
-                    <h3>{{ page.project3.title}}</h3>
-                    <p class="lead">
-                        {{ page.project3.description }}
-                    </p>
-                    <a class="btn btn-default" href="{{ page.project3.link }}"><span><h5>Learn More</h5></span></a>
+                <div class="col-md-12">
+                    <div class="slide-container">
+                        <div class="slide">
+                            <h3>{{ page.project1.title}}</h3>
+                            <p class="lead">{{ page.project1.description }}</p>
+                            <a class="btn btn-default" href="{{ page.project1.link }}"><span><h5>Learn More</h5></span></a>
+                        </div>
+                        <div class="slide">
+                            <h3>{{ page.project2.title}}</h3>
+                            <p class="lead">{{ page.project2.description }}</p>
+                            <a class="btn btn-default" href="{{ page.project2.link }}"><span><h5>Learn More</h5></span></a>
+                        </div>
+                        <div class="slide">
+                            <h3>{{ page.project3.title}}</h3>
+                            <p class="lead">{{ page.project3.description }}</p>
+                            <a class="btn btn-default" href="{{ page.project3.link }}"><span><h5>Learn More</h5></span></a>
+                        </div>
+                        <div>
+                            <i class="fa fa-angle-left prev" aria-hidden="true"></i>
+                            <i class="fa fa-angle-right next" aria-hidden="true"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,6 +163,8 @@
     <!-- Awesome Font -->
     <script src="https://use.fontawesome.com/f84289e89a.js"></script> 
 </body>
+    <!-- Custom JS -->
+    <script src="assets/js/index.js"></script>
 
 </html>
 
