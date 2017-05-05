@@ -81,3 +81,7 @@ h1{
 .carousel-control.left {
     background-image: none;
 }
+
+nav a:hover{
+    color:green !important;
+}
