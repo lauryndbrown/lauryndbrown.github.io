@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # lauryn-theme
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
@@ -47,13 +46,3 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-=======
-# Lauryn Brown's Personal Website
-
-## Purpose
-A simple, personal portfolio and blog to share my programming journey with the world.
-
-## Tools used
-* Jekyll is used for blogging
-* [Start Bootstrap](http://startbootstrap.com/) - [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/) is used as a base for scrolling nav. Though there were several changes necessary to ensure it was responsive. It does not appear currently maintained.
->>>>>>> 53db79e9206a1045c321eabc3006dad9c9db33f9
