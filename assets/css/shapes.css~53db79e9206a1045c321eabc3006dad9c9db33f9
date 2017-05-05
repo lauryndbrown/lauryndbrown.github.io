@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.inline-shape{
+    display:inline-block;
+}
+.align-center{
+    margin: 0 auto;
+}
+.bulb-bottom{
+    width:0;
+    height:0;
+    border-right:60px solid #FF80AB;
+    border-top: 60px solid #F8BBD0;
+    border-left: 60px solid #F48FB1;
+    border-bottom: 60px solid #F06292;
+    border-bottom-left-radius:60px;
+    border-bottom-right-radius:60px;
+}
+.top-of-stem{
+    margin: 0px 25px;
+}
+.stem{
+    float:left;
+    width:12px;
+    height:200px;
+    margin: 0 10px;
+    background-color:#4CAF50;
+}
+.leaf{
+    float:left;
+    margin-top:80px;
+    background-color: #4CAF50;
+    width:60px;
+    height:30px;
+}
+.left-leaf{
+    clear:left;
+    margin-left:10px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
+}
+.right-leaf{
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+}
+@media(min-width:400px) {
+    .right-leaf{
+        margin-right:15px;
+    }
+}  
+.intro .lead{
+    float:right;
+}
+h1{
+    color:#FAFAFA;
+}
+#intro .btn, #contact .btn{
+    background-color:transparent;
+    color:#FAFAFA;
+    font-size:1.7em;
+}
+
+.carousel-inner{
+    min-height:350px !important;
+}
+.carousel-control{
+    background-color:#FAFAFA !important;
+    text-shadow:none;
+    color:black;
+}
+
+.carousel-control a{
+    color:black;
+
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
