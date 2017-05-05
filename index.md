@@ -6,11 +6,14 @@ layout: home
 project1: 
     title: ASCII Game Engine
     description: Python framework for ASCII art games built in the terminal.
+    link: https://github.com/lauryndbrown/AsciiGame
 project2:
     title: COBOL Lisp Interpreter
     description: Python framework for ASCII art games built in the terminal.
+    link: https://github.com/lauryndbrown/Cisp
 project3:
     title: TBA
     description: Python framework for ASCII art games built in the terminal.
+    link: #
 ---
 
