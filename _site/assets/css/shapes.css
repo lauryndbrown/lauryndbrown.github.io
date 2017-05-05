@@ -4,6 +4,16 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Rubik Mono One', sans-serif;
 }
+nav a, .navbar-brand{
+    font-size:30px;
+    color:#263238 !important;
+}
+h1{
+    font-size:40px;
+}
+.intro-section .lead{
+    font-size:25px;
+}
 .inline-shape{
     display:inline-block;
 }
@@ -13,17 +23,17 @@ h1,h2,h3,h4,h5,h6{
 .cloud{
     width:350px;
     height:120px;
-    background:#fff;
+    background:#ECEFF1;
     border-radius:100px;
     position:relative;
     margin 120px auto 20px;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
-    left:30%;
+    margin-top:40px;
 }
 .cloud:after, .cloud:before{
     content:"";
     position:absolute;
-    background:#fff;
+    background:#ECEFF1;
 }
 .cloud:after{
     width:100px;
@@ -59,12 +69,33 @@ h1,h2,h3,h4,h5,h6{
     width:12px;
     height:200px;
     margin: 0 10px;
-    background-color:#4CAF50;
+    background: linear-gradient(
+        to bottom,
+        #66BB6A,
+        #66BB6A 50%,
+        #4CAF50 50%,
+        #4CAF50
+); 
+background: repeating-linear-gradient(
+  -55deg,
+         #66BB6A,
+        #66BB6A 10%,
+        #4CAF50 50%,
+        #4CAF50 30%
+);
 }
 .leaf{
     float:left;
     margin-top:80px;
-    background-color: #4CAF50;
+   // background-color: #00c853;//#4CAF50;
+    background: linear-gradient(
+        to bottom,
+        #66BB6A,
+        #66BB6A 50%,
+        #4CAF50 50%,
+        #4CAF50
+    );
+    
     width:60px;
     height:30px;
 }
@@ -89,28 +120,11 @@ h1,h2,h3,h4,h5,h6{
 h1{
     color:#FAFAFA;
 }
-#intro .btn, #contact .btn{
+#intro .btn, #contact .btn, #projects .btn{
     background-color:transparent;
     color:#FAFAFA;
     font-size:1.7em;
-}
-
-.carousel-inner{
-    min-height:350px !important;
-}
-.carousel-control{
-    background-color:#FAFAFA !important;
-    text-shadow:none;
-    color:black;
-}
-
-.carousel-control a{
-    color:black;
-
-}
-.carousel-control.right,
-.carousel-control.left {
-    background-image: none;
+    border:solid 4px #fff;
 }
 
 nav a:hover{
@@ -118,10 +132,18 @@ nav a:hover{
 }
 
 .slide{
-    background-color:green;
     min-height: 100px;
     padding:10px;
     color:white;
+}
+.slide:nth-child(1){
+    background-color: rgba(0, 176, 255,1); 
+}
+.slide:nth-child(2){
+    background-color:#F06292; 
+}
+.slide:nth-child(3){
+    background-color:#55B359; 
 }
 
 .fa.fa-angle-left,.fa.fa-angle-right{
