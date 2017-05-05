@@ -99,6 +99,7 @@ nav a:hover{
 
 /* Next & previous buttons */
 .prev, .next {
+  background:transparent;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -119,4 +120,8 @@ nav a:hover{
 /* Position the "prev button" to the left */
 .prev {
   left: 22px;
+}
+a.prev:hover,a.prev:focus, a.prev:active, a.prev:visited, a.next:hover, a.next:focus, a:.next:active, a.next:visited{
+    background:transparent;
+    color:#fff !important;
 }
