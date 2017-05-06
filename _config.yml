@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Lauryn Brown
+email: lauryndbrown@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+        Personal Website of Lauryn Danelle Brown, a software engineer from Oklahoma trained at Carnegie Mellon learning at the Recurse Center.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lauryndbrown.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -31,4 +29,11 @@ safe: false
 future: true
 #gems:
 #   - jekyll-feed
+#gems:
+#  - jekyll-assets
 destination: _site
+assets:
+    sources:
+        - _assets/css
+        - _assets/fonts
+        - _assets/js
