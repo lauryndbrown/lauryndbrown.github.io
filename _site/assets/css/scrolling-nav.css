@@ -41,7 +41,8 @@ of those sections to manage the look and feel of the site. */
 
 section{
     min-height: 100%;
-    padding: 150px 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
     text-align: center;
 }
 section:nth-child(2n+1){
