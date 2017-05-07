@@ -73,8 +73,8 @@ h1{
     animation-fill-mode: forwards;
 }
 .bg-cloud:nth-child(3) {
-    top:100px;
-    left:-70%;
+    top:50px;
+    left:-40%;
     animation: 10s ease-in-out 0s 1 cloud-float;
     animation-fill-mode: forwards;
 }
