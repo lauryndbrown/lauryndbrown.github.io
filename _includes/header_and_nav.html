@@ -19,6 +19,9 @@
     <!-- Custom CSS -->
     <link href="{{ site.baseurl }}{% link assets/css/scrolling-nav.css %}" rel="stylesheet">
     <link href="{{ site.baseurl }}{% link assets/css/shapes.css %}" rel="stylesheet">
+    {% if page.page_id == 'index' %}
+    <link href="{{ site.baseurl }}{% link assets/css/index.css %}" rel="stylesheet">
+    {% endif %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

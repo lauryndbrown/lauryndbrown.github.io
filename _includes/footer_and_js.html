@@ -30,9 +30,10 @@
     <!-- Awesome Font -->
     <script src="https://use.fontawesome.com/f84289e89a.js"></script> 
 </body>
+    {% if page.page_id == 'index' %}
     <!-- Custom JS -->
     <script src="{{ site.baseurl }}{% link assets/js/index.js %}"></script>
-
+    {% endif %}
 </html>
 
 
