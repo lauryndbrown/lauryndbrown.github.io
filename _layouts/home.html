@@ -47,19 +47,20 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="slide-container">
+                    <div class="slide-container row">
                         {% for project in page.projects %}
                         <div class="slide">
-                            <span><strong>{{ forloop.index }}</strong>/{{ forloop.length }}</span>
-                            <h3>{{ project.title}}</h3>
-                            <p class="lead">{{ project.description }}</p>
-                            <a class="btn btn-default" href="{{ project.link }}"><span><h5>Learn More</h5></span></a>
+                            <span class="col-sm-3 slide-center"><strong>{{ forloop.index }}</strong> / {{ forloop.length }}</span>
+                            <div class="slide-content col-sm-9 text-left">
+                                <h3 class="">{{ project.title}}</h3>
+                                <p class="lead">{{ project.description }}</p>
+                                <!--<div class="image-placeholder"></div> -->
+                                <a class="btn btn-default" href="{{ project.link }}"><h5>Learn More</h5></a>
+                            </div>
                         </div>
                         {% endfor %}
-                        <div>
                             <a class="btn btn-default prev" href="javascript:prev_slide();"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
                             <a class="btn btn-default next" href="javascript:next_slide();"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
