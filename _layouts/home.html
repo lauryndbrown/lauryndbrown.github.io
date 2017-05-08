@@ -20,10 +20,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <h1 class="text-left">Hi! I'm Lauryn Brown!</h1>
-                    <p class="lead text-left">Recent Carnegie Mellon Graduate honing her craft at the Recurse Center in New York!</p>
-                    <div class="center-block">
+                <div class="col-lg-8 text-container">
+                    <h1 class="">Hi! I'm Lauryn Brown!</h1>
+                    <hr class="" align="left" />
+                    <p class="lead">Recent Carnegie Mellon Graduate honing her craft at the Recurse Center in New York!</p>
+                    <div class="btn-container text-center">
                         <a class="btn btn-default page-scroll" href="#projects"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
                     </div>
                 </div>
@@ -41,29 +42,23 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Current Projects</h2>
+                    <hr class="" align="" />
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="slide-container">
+                        {% for project in page.projects %}
                         <div class="slide">
-                            <h3>{{ page.project1.title}}</h3>
-                            <p class="lead">{{ page.project1.description }}</p>
-                            <a class="btn btn-default" href="{{ page.project1.link }}"><span><h5>Learn More</h5></span></a>
+                            <span><strong>{{ forloop.index }}</strong>/{{ forloop.length }}</span>
+                            <h3>{{ project.title}}</h3>
+                            <p class="lead">{{ project.description }}</p>
+                            <a class="btn btn-default" href="{{ project.link }}"><span><h5>Learn More</h5></span></a>
                         </div>
-                        <div class="slide">
-                            <h3>{{ page.project2.title}}</h3>
-                            <p class="lead">{{ page.project2.description }}</p>
-                            <a class="btn btn-default" href="{{ page.project2.link }}"><span><h5>Learn More</h5></span></a>
-                        </div>
-                        <div class="slide">
-                            <h3>{{ page.project3.title}}</h3>
-                            <p class="lead">{{ page.project3.description }}</p>
-                            <a class="btn btn-default" href="{{ page.project3.link }}"><span><h5>Learn More</h5></span></a>
-                        </div>
+                        {% endfor %}
                         <div>
-                            <a class="prev" href="javascript:prev_slide();"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-                            <a class="next" href="javascript:next_slide();"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <a class="btn btn-default prev" href="javascript:prev_slide();"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                            <a class="btn btn-default next" href="javascript:next_slide();"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>

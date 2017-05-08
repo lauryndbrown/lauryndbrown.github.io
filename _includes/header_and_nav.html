@@ -12,7 +12,7 @@
     <title>Lauryn Brown</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:800|Montserrat" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="{{ site.baseurl }}{% link assets/css/bootstrap.min.css %}" rel="stylesheet">
 
@@ -21,6 +21,9 @@
     <link href="{{ site.baseurl }}{% link assets/css/shapes.css %}" rel="stylesheet">
     {% if page.page_id == 'index' %}
     <link href="{{ site.baseurl }}{% link assets/css/index.css %}" rel="stylesheet">
+    {% endif %}
+    {% if page.page_id == 'blog' %}
+    <link href="{{ site.baseurl }}{% link assets/css/blog.css %}" rel="stylesheet">
     {% endif %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="{{ site.baseurl }}"> <i class="fa fa-leaf" aria-hidden="true"></i>Lauryn Brown</a>
+                <a class="navbar-brand page-scroll" href="{{ site.baseurl }}"> <i class="fa fa-leaf" aria-hidden="true"></i>L.B.</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

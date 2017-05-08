@@ -1,16 +1,42 @@
 body{
-    font-family: 'Roboto', sans-serif;
     color: #313638;
+    font-family: 'Montserrat', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Rubik Mono One', sans-serif;
+h1,h2,h3,h4,h5,h6,nav a{
+    font-family: 'Inknut Antiqua', serif;
+}
+hr{
+    max-width: 300px;
+    border-width: 7px;
+    border-color: #313638;
 }
 nav a, .navbar-brand{
     font-size:30px;
     color:#263238 !important;
 }
+
+.navbar-collapse, .navbar-form, .navbar, .navbar-fixed-top, nav, .navbar-default {
+    background-color:#fff !important;
+    border-style:none !important;
+    overflow:hidden;
+}
 h1{
     font-size:40px;
+}
+.text-container{
+    text-align: left;
+}
+.intro-section .text-container .btn{
+    position:absolute;
+    left: 50%;
+}
+.intro-section .btn-container{
+    min-height: 50px;
+}
+@media(max-width:1040px) {
+    .text-container{
+        padding: 0 0 0 25%;
+    }
 }
 .intro-section {
     overflow:hidden;
@@ -114,7 +140,6 @@ background: repeating-linear-gradient(
 .leaf{
     float:left;
     margin-top:80px;
-   // background-color: #00c853;//#4CAF50;
     background: linear-gradient(
         to bottom,
         #66BB6A,
@@ -144,24 +169,29 @@ background: repeating-linear-gradient(
 .intro .lead{
     float:right;
 }
-h1{
-    //color:#FAFAFA;
-}
-#intro .btn, #contact .btn, #projects .btn{
-    background-color:transparent;
-    color:#FAFAFA;
+#intro .btn, #contact .btn, #projects .btn, .btn{
+    background-color:rgba(255, 255, 255, 0.5);
     font-size:1.7em;
-    border:solid 4px #fff;
+    border:solid 4px #263238;
+    color: #263238;
 }
-
-nav a:hover{
-    color:green !important;
+nav .navbar-toggle{
+    border:solid 4px #000 !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #263238;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active{
+    background-color: rgba(85,179,89, 0.09);
+}
+nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:#55B359 !important;
+    background-color:transparent; 
 }
 
 .slide{
     min-height: 100px;
     padding:10px;
-    color:white;
 }
 .slide:nth-child(1){
    background-color: rgba(0, 176, 255,.6); 
@@ -179,14 +209,12 @@ nav a:hover{
 
 /* Next & previous buttons */
 .prev, .next {
-  background:transparent;
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   margin-top: -32px;
   padding: 16px;
-  color: white;
   font-weight: bold;
   transition: 0.6s ease;
   border: solid 3px;
@@ -200,8 +228,4 @@ nav a:hover{
 /* Position the "prev button" to the left */
 .prev {
   left: 22px;
-}
-a.prev:hover,a.prev:focus, a.prev:active, a.prev:visited, a.next:hover, a.next:focus, a:.next:active, a.next:visited{
-    background:transparent;
-    color:#fff !important;
 }

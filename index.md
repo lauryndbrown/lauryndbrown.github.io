@@ -4,15 +4,16 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 page_id: index
 layout: home
-project1: 
+projects:
+- 
     title: ASCII Game Engine
     description: Python framework for ASCII art games built in the terminal.
     link: https://github.com/lauryndbrown/AsciiGame
-project2:
+-
     title: COBOL Lisp Interpreter
     description: Python framework for ASCII art games built in the terminal.
     link: https://github.com/lauryndbrown/Cisp
-project3:
+-
     title: TBA
     description: Python framework for ASCII art games built in the terminal.
     link: #
