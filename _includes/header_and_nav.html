@@ -21,8 +21,7 @@
     <link href="{{ site.baseurl }}{% link assets/css/shapes.css %}" rel="stylesheet">
     {% if page.page_id == 'index' %}
     <link href="{{ site.baseurl }}{% link assets/css/index.css %}" rel="stylesheet">
-    {% endif %}
-    {% if page.page_id == 'blog' %}
+    {% else %}
     <link href="{{ site.baseurl }}{% link assets/css/blog.css %}" rel="stylesheet">
     {% endif %}
 
