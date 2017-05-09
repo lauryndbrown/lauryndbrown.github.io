@@ -48,7 +48,7 @@
                     {% for i in (0..9) %}
                         <li>
                             <span class="col-xs-3">{{ site.posts[i].date | date: "%D" }}</span>
-                            <a class="col-xs-8 col-xs-offset-1" href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
+                            <a class="col-xs-8 col-xs-offset-1" href="{{ site.baseurl }}{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
                         </li>
                     {% endfor %}
                     </ul>
