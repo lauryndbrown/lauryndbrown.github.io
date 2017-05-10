@@ -39,3 +39,8 @@
     right:0;
     color: rgba(0,0,0,0.2);
 }
+.blog .lead{
+    margin-top:40px;
+    font-size: 30px;
+    color: rgba(0,0,0,0.5);
+}

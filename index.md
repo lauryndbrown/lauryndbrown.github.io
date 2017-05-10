@@ -10,12 +10,12 @@ projects:
     description: Python framework for ASCII art games built in the terminal.
     link: https://github.com/lauryndbrown/AsciiGame
 -
-    title: COBOL Lisp Interpreter
-    description: Python framework for ASCII art games built in the terminal.
+    title: COBOL Lisp Interpreter (CISP)
+    description: Lisp Interpreter built in COBOL
     link: https://github.com/lauryndbrown/Cisp
 -
-    title: TBA
-    description: Python framework for ASCII art games built in the terminal.
-    link: #
+    title: Mini Browser
+    description: Small Browser built in Python
+    link: https://github.com/lauryndbrown/MiniBrowser
 ---
 

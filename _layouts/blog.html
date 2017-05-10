@@ -45,16 +45,20 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="blog-post-list row">
                     {% for post in site.posts %}
+                    <ul class="blog-post-list row">
                     <li class="col-md-12 text-left">
 
                             <span>{{ post.date | date: "%a, %b %d, %y" }}</span>
                             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
                         </li>
-                    {% endfor %}
                     </ul>
+                    {% endfor %}
+                    {% assign post_count = site.post | size %}
+                    {% if post_count == 0 %}
+                        <p class="lead"> No posts yet. More coming soon! </p>     
+                    {% endif %}
                 </div>
             </div>
         </div>
