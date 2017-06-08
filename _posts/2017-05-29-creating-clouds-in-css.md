@@ -1,23 +1,15 @@
 ---
 layout: post
-title: CSS ART - Creating Clouds in CSS
+title:  Creating Clouds in CSS3
+subtitle: Simple, CSS-Only Cloud with One Div
+series: CSS3 ART
 ---
-
-## Intro
-
-When designing my personal website, I decided to maniuplate CSS polygons to create clouds and flowers in CSS. I hope to contribute to the blog regularily and write tutorials and musings on the technology I\'m interested. Please do comment, share, or ask questions as I feel through developing my blog. :)
-
-## Clouds Tutorial
-Clouds as seen above are created utilizing pseudo-classes so that the effect can be achieve with a single div. However, it can be helpful to conceptualize it in terms of three distince parts as shown below. 
-
-Cloud with three parts 
-
-### The Html
+## The Html
 For the cloud, only a single div is necessary. We give it the class cloud so that it is easy to reference in the css. So, the HTML is very simple here. 
 
 <pre class="  language-markup"><code class="  language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>cloud<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
 
-### The CSS: Color, Shape, & Shadow
+## The CSS: Color, Shape, & Shadow
 To give the cloud its color and inital shape, we give it an off-white background color and specify the width and height. In the full code examples I\'ll be adding an additional page background color for better visibility. 
 <pre><code class="language-css">.cloud{ 
    width:350px;
@@ -26,7 +18,7 @@ To give the cloud its color and inital shape, we give it an off-white background
 }</code></pre>
 
 To create a round cloud we use the border-radius property. It simply rounds the corners of an element. Learn more about the property with a quick introduction at [W3School\'s Tutorial](https://www.w3schools.com/cssref/css3_pr_border-radius.asp).
-
+### Box-Shadows
 Next we add the shadow. It\'s a single line of CSS utilizing the box-shadow propterty. You can learn more about the box-shadow property at [W3Schools\' Box-Shadow Tutorial](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp) and [MDN\'s Box-Shadow Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow?v=control). 
 
 The box-shadow property can be initially opague. So let\'s explore it in a little more depth. By design, the box-shadow property creates what is essentially a copy of the original element. It begins as the same width and height and defaults to the same color as the color property (the property that determine\'s font color). Then through the parameters we can specify the positioning, color, and size (relative the original element) that we need for our effect. 
@@ -45,10 +37,10 @@ And with that we have the first \"piece\" of our cloud done. Below is the code w
 <p data-height="265" data-theme-id="0" data-slug-hash="YQKryG" data-default-tab="html,result" data-user="lauryndbrown" data-embed-version="2" data-pen-title="YQKryG" class="codepen">See the Pen <a href="https://codepen.io/lauryndbrown/pen/YQKryG/">YQKryG</a> by Lauryn Brown (<a href="https://codepen.io/lauryndbrown">@lauryndbrown</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-### The CSS: Creating Bumpy Clouds
+## The CSS: Creating Bumpy Clouds
 To give it a more quintessential cloud look, we\'re going to add the top bumps. In order to do this with a single div, we look to the element\'s pseudo-elements.
 
-#### Pseudo-elements
+### Pseudo-elements
 A pseudo-element allows a developer to design specific parts of an element separately from the whole. [W3Schools has a great explanation](https://www.w3schools.com/css/css_pseudo_elements.asp) going into more depth and using the example of a paragraph element to further illustrate this. 
 <pre><code class="language-css">.cloud:after, .cloud:before{
     content:"";
