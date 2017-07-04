@@ -3,6 +3,7 @@ layout: post
 title:  Creating Clouds in CSS3
 subtitle: Simple, CSS-Only Cloud with One Div
 series: CSS3 ART
+header: clouds.html
 ---
 ## The Html
 For the cloud, only a single div is necessary. We give it the class cloud so that it is easy to reference in the css. So, the HTML is very simple here. 
