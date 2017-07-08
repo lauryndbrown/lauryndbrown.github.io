@@ -227,15 +227,15 @@ nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>
     right:0;
     z-index:-1;
 }
-.slide .image-placeholder:nth-child(1){
+.image-placeholder:nth-child(1){
    background-color: rgba(0, 176, 255,.6); 
    border-color: rgba(0, 176, 255,.6); 
 }
-.slide .image-placeholder:nth-child(2){
+.image-placeholder:nth-child(2){
     background-color:#F06292; 
     border-color:#F06292; 
 }
-.slide .image-placeholder:nth-child(3){
+.image-placeholder:nth-child(3){
     background-color:#55B359; 
     border-color:#55B359; 
 }

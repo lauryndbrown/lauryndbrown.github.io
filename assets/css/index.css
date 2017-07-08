@@ -1,0 +1,24 @@
+.project a{
+    width:100%;
+    border:none !important;
+}
+.project{
+    margin-bottom:20px;
+}
+.project .image-placeholder{
+    position:relative;
+    height:100%;
+    width:100%;
+    min-height:50px;
+    min-width:50px;
+    background-color: rgba(0, 176, 255, 1); 
+}
+.cutout:before{
+  content:inherit;
+  color: rgba(0,0,0,.3)
+}
+
+.cutout {
+	text-shadow: -1px 1px 0px rgba(255,255,255,0.1), 1px -1px 0px rgba(0,0,0,0.1);
+	color: #fff;
+}

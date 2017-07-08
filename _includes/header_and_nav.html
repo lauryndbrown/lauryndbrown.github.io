@@ -23,7 +23,7 @@
     <!-- Custom CSS -->
     <link href="{{ site.baseurl }}{% link assets/css/scrolling-nav.css %}" rel="stylesheet">
     <link href="{{ site.baseurl }}{% link assets/css/shapes.css %}" rel="stylesheet">
-    {% if page.page_id == 'index' %}
+    {% if page.layout == 'home' %}
     <link href="{{ site.baseurl }}{% link assets/css/index.css %}" rel="stylesheet">
     {% else %}
     <link href="{{ site.baseurl }}{% link assets/css/blog.css %}" rel="stylesheet">

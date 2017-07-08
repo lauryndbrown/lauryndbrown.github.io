@@ -14,8 +14,12 @@ projects:
     description: Lisp Interpreter built in COBOL
     link: https://github.com/lauryndbrown/Cisp
 -
-    title: Mini Browser
+    title: Baby Browser
     description: Small Browser built in Python
+    link: https://github.com/lauryndbrown/MiniBrowser
+-
+    title: CSS3 Art
+    description: Hand-Built Art with Pure CSS
     link: https://github.com/lauryndbrown/MiniBrowser
 ---
 
