@@ -5,6 +5,12 @@ subtitle: Simple, CSS-Only Cloud with One Div
 series: CSS3 ART
 header: clouds.html
 ---
+
+Clouds are a lovely to adorn any website, but when lacking a graphic designer or the perfect image, why not create it yourself? 
+
+## Prerequists (And other silly assumptions)
+I\'m assuming you understand HTML and CSS. More specifically, you have a grasp on how inheritance works in CSS.
+
 ## The Html
 For the cloud, only a single div is necessary. We give it the class cloud so that it is easy to reference in the css. So, the HTML is very simple here. 
 
